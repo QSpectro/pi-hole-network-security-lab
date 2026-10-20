@@ -1,47 +1,73 @@
 # Pi-hole Network Security Lab
 
-## Overview
-This project documents a home-lab implementation of Pi-hole, a DNS-based network ad blocker. The goal is to explore DNS resolution, network traffic filtering, Linux administration, and basic network security.
+## Project Overview
 
-## Objectives
-- Understand how DNS translates domain names into IP addresses.
-- Explore DNS-based blocking and filtering.
-- Practice Linux system administration.
-- Document network configuration and troubleshooting.
-- Evaluate the strengths and limitations of DNS filtering.
+This project documents my home lab using Pi-hole on a Raspberry Pi running Raspberry Pi OS. The goal is to demonstrate practical knowledge of DNS filtering, Linux administration, network services, and defensive network security.
 
-## Hardware and Software
-- Hardware: To be documented
-- Operating system: To be documented
-- Pi-hole version: To be documented
-- Network equipment: To be documented
+## Project Goals
 
-## Network Design
-A network diagram and description of the DNS traffic flow will be added here.
+- Understand DNS resolution and how clients use DNS servers.
+- Explore DNS-based filtering of unwanted domains.
+- Practice Linux system administration on a Raspberry Pi.
+- Document configuration, testing, and troubleshooting.
+- Understand the security benefits and limitations of DNS filtering.
+
+## Lab Environment
+
+| Component | Details |
+|---|---|
+| Hardware | Raspberry Pi |
+| Operating system | Raspberry Pi OS |
+| DNS filtering software | Pi-hole |
+| Network | Home network |
+| Router | To be documented |
+| Pi-hole version | To be documented |
+
+## Network Architecture
+
+Pi-hole provides DNS-based filtering for clients configured to use it as their DNS server.
+
+The exact network design, client configuration, and DNS forwarding setup will be documented after verification.
 
 ## Implementation
-Installation steps, configuration decisions, and testing procedures will be documented here.
+
+Pi-hole is installed and working on my Raspberry Pi.
+
+Detailed installation steps and configuration notes will be added as I verify the existing setup.
 
 ## Testing and Results
-Document DNS queries, blocked requests, successful domain resolution, and other observations from the lab.
+
+Testing procedures, observations, and screenshots will be added after documenting the current configuration and validating DNS behavior.
 
 ## Security Considerations
-- DNS filtering is not a replacement for a firewall or endpoint protection.
-- Protect administrative credentials and configuration secrets.
-- Test only on systems and networks I own or am authorized to administer.
+
+- DNS filtering is one layer of defense, not a replacement for firewalls or endpoint security.
+- Administrative interfaces should be protected with strong credentials.
+- Router and DNS settings should be changed carefully to avoid disrupting network connectivity.
+- Credentials, private keys, and sensitive network information must not be committed to this repository.
 
 ## Skills Demonstrated
+
 - DNS fundamentals
 - Linux administration
-- Network troubleshooting
-- Security documentation
-- Basic defensive network security
+- Raspberry Pi system management
+- Network configuration
+- Defensive security concepts
+- Technical documentation
 
 ## Lessons Learned
-To be completed based on the actual implementation and testing.
+
+I will document the concepts learned, configuration decisions, troubleshooting steps, and testing results as this project develops.
 
 ## Future Improvements
-- Add network monitoring.
-- Explore network segmentation in an isolated lab.
-- Automate basic log analysis.
-- Document incident investigation scenarios.
+
+- Add a network architecture diagram.
+- Document DNS resolution and filtering tests.
+- Capture sanitized dashboard screenshots.
+- Explore network monitoring and log analysis.
+- Document backup and recovery considerations.
+
+## References
+
+- [Official Pi-hole Documentation](https://docs.pi-hole.net/)
+- [Pi-hole GitHub Repository](https://github.com/pi-hole/pi-hole)
