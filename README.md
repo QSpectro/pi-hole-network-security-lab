@@ -16,12 +16,12 @@ This project documents my home lab using Pi-hole on a Raspberry Pi running Raspb
 
 | Component | Details |
 |---|---|
-| Hardware | Raspberry Pi |
-| Operating system | Raspberry Pi OS |
+| Hardware | Raspberry Pi 2 Model B |
+| Operating system | Raspberry Pi OS Lite |
 | DNS filtering software | Pi-hole |
 | Network | Home network |
-| Router | To be documented |
-| Pi-hole version | To be documented |
+| Router | ATT ALLFi HUB |
+| Pi-hole version | Core V6.5 |
 
 ## Network Architecture
 
@@ -31,7 +31,7 @@ The exact network design, client configuration, and DNS forwarding setup will be
 
 ## Implementation
 
-Pi-hole is installed and working on my Raspberry Pi.
+Pi-hole is installed and working on my Raspberry Pi 2 Model B.
 
 Detailed installation steps and configuration notes will be added as I verify the existing setup.
 
