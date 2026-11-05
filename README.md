@@ -12,16 +12,17 @@ This project documents my home lab using Pi-hole on a Raspberry Pi running Raspb
 - Document configuration, testing, and troubleshooting.
 - Understand the security benefits and limitations of DNS filtering.
 
-## Lab Environment
+## Hardware and Software
 
 | Component | Details |
 |---|---|
 | Hardware | Raspberry Pi 2 Model B |
 | Operating system | Raspberry Pi OS Lite |
 | DNS filtering software | Pi-hole |
+| Pi-hole version | 6.5 |
 | Network | Home network |
-| Router | ATT ALLFi HUB |
-| Pi-hole version | Core V6.5 |
+| DNS configuration | Router forwards DNS requests to Pi-hole |
+| Administration | SSH / terminal |
 
 ## Network Architecture
 
