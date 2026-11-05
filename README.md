@@ -48,7 +48,30 @@ This verifies that the blocking functionality is active, but additional testing 
 
 ## Testing and Results
 
-Testing procedures, observations, and screenshots will be added after documenting the current configuration and validating DNS behavior.
+## DNS Resolution Testing
+
+### Test 1: Successful DNS Resolution
+
+**Command used:**
+
+```bash
+nslookup example.com 127.0.0.1
+```
+
+**Test Results:**
+- DNS server responded successfully.
+- DNS server address was displayed.
+- The domain example.com resolved to IP addresses.
+- DNS resolution through the local Pi-hole service was successful.
+
+**Result:** PASS
+
+**Skills Demonstrated:**
+- DNS troubleshooting
+- Linux command-line administration
+- DNS server verification
+- Network diagnostics
+
 
 ## Security Considerations
 
