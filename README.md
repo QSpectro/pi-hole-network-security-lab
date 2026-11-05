@@ -72,6 +72,37 @@ nslookup example.com 127.0.0.1
 - DNS server verification
 - Network diagnostics
 
+## DNS Query Monitoring
+
+### Live DNS Monitoring Test
+
+**Command used:**
+
+```bash
+pihole -t
+```
+
+**Observation:**
+
+The Pi-hole terminal displayed live DNS query activity, including cached DNS responses.
+
+**Example observation:**
+
+- Query type: Cached DNS response
+- Status: `cached-stale`
+- Domain observed: `w.sni.global.fastly.net`
+- Returned IP: Redacted in public documentation
+
+**Results:**
+
+- Confirmed that Pi-hole is processing DNS activity.
+- Observed DNS caching behavior.
+- Practiced monitoring DNS activity through the Linux terminal.
+
+**Security Note:**
+
+DNS query logs can contain sensitive information about network activity. Public documentation should use sanitized examples.
+
 
 ## Security Considerations
 
