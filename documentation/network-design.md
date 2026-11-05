@@ -21,7 +21,7 @@
 
 The following items will be verified and recorded:
 
-- Raspberry Pi OS version
+- Raspberry Pi OS Lite version
 - Pi-hole service and blocking status
 - Installed Pi-hole version
 - Configured upstream DNS provider
@@ -34,6 +34,3 @@ This documentation intentionally excludes credentials, public IP addresses, and 
 
 No router configuration changes are required for the documentation process.
 
-## Notes
-
-The exact DNS forwarding behavior and upstream resolver will be documented after verification.
