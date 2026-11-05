@@ -99,6 +99,55 @@ The Pi-hole terminal displayed live DNS query activity, including cached DNS res
 - Observed DNS caching behavior.
 - Practiced monitoring DNS activity through the Linux terminal.
 
+## System Administration
+
+Pi-hole is managed using two administration methods:
+
+### 1. SSH / Linux Terminal
+- Check Pi-hole service status.
+- Monitor live DNS queries.
+- Perform DNS resolution tests.
+- Execute Pi-hole maintenance commands.
+
+### 2. Web Administration Dashboard
+- Monitor DNS query statistics.
+- Review blocked DNS requests.
+- View filtering activity.
+- Monitor blocklist information.
+
+Using both interfaces provides experience with Linux command-line administration and graphical network monitoring.
+
+## Pi-hole Dashboard Results
+
+The Pi-hole dashboard was used to monitor DNS activity and evaluate DNS filtering performance.
+
+### Observed Statistics
+
+| Metric | Result |
+|---|---:|
+| Total DNS Queries | 823 |
+| Queries Blocked | 128 |
+| Percentage Blocked | 15.6% |
+| Domains on Blocklists | 77,759 |
+| Active Clients | 3 |
+
+### Analysis
+
+During this dashboard observation, Pi-hole processed 823 DNS queries and blocked 128 requests.
+
+Approximately 15.6% of the observed DNS queries were blocked through the configured filtering rules.
+
+The dashboard also reported 77,759 domains on configured blocklists and three active clients.
+
+### Conclusion
+
+The dashboard provides evidence that Pi-hole is operational and actively processing DNS requests.
+
+This project demonstrates practical experience with DNS filtering, Linux administration, network monitoring, and defensive network security.
+
+*Note: These statistics represent one dashboard snapshot and may change over time.*
+
+
 **Security Note:**
 
 DNS query logs can contain sensitive information about network activity. Public documentation should use sanitized examples.
@@ -119,10 +168,6 @@ DNS query logs can contain sensitive information about network activity. Public 
 - Network configuration
 - Defensive security concepts
 - Technical documentation
-
-## Lessons Learned
-
-I will document the concepts learned, configuration decisions, troubleshooting steps, and testing results as this project develops.
 
 ## Future Improvements
 
