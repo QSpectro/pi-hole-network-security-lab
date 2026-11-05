@@ -30,11 +30,21 @@ Pi-hole provides DNS-based filtering for clients configured to use it as their D
 
 The exact network design, client configuration, and DNS forwarding setup will be documented after verification.
 
-## Implementation
+## Implementation 
 
-Pi-hole is installed and working on my Raspberry Pi 2 Model B.
+Pi-hole is installed and operational on a Raspberry Pi 2 Model B running Raspberry Pi OS Lite.
 
-Detailed installation steps and configuration notes will be added as I verify the existing setup.
+- **Pi-hole version:** 6.5
+- **Blocking status:** Enabled
+- **Network configuration:** Home router forwards DNS requests to Pi-hole
+- **Administration:** SSH / terminal
+
+## Initial Verification
+
+The `pihole status` command confirmed that Pi-hole blocking is enabled.
+
+This verifies that the blocking functionality is active, but additional testing is needed to confirm that DNS filtering is working as expected for client devices.
+
 
 ## Testing and Results
 
